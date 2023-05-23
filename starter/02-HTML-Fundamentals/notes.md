@@ -16,7 +16,9 @@ Elements in the head tag will not necessarily be shown to the user
 
 # Text elements
 
-There are six "h" tags -> h1 to h6![](20230523104552.png)  
+There are six "h" tags -> h1 to h6!  
+[](20230523104552.png)
+
 Headings are used to break up text into logical sections
 
 "p" tags are used to write more generic smaller text
@@ -32,3 +34,15 @@ The same goes for the "i" tag (italics). Use "em" (emphasise) instead
 Ordered lists can be constructed with the "ol" tag and "li" tags inside of it
 
 Unordered lists are the same as an ordered list but with a "ul" tag -> creates a bullet pointed list
+
+# Images and attributes
+
+The "img" tag is one of those elements with no **content**
+
+Instead it uses attributes which provide it with information about the content
+
+The src attribute provides information as to the location of the image
+
+The alt attribute means alt text. This helps with accessibility and the browser knows what the image is.
+
+width and height attributes obviously change the size of the image
