@@ -26,3 +26,9 @@ A good practice is to only ever have **one** h1 tag in each html page
 You can use "b" tags to create bold text however it is deprecated and the "strong" tag should be used instead as it has no **semantic** meaning
 
 The same goes for the "i" tag (italics). Use "em" (emphasise) instead
+
+# More text elements: Lists
+
+Ordered lists can be constructed with the "ol" tag and "li" tags inside of it
+
+Unordered lists are the same as an ordered list but with a "ul" tag -> creates a bullet pointed list
