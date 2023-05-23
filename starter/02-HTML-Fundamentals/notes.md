@@ -46,3 +46,7 @@ The src attribute provides information as to the location of the image
 The alt attribute means alt text. This helps with accessibility and the browser knows what the image is.
 
 width and height attributes obviously change the size of the image
+
+The html tag uses the lang attribute to specify the language of the page
+
+The head tag requires meta tags (metadata) to describe the caracter set being used in the page
