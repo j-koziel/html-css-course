@@ -8,3 +8,7 @@ An element is made up of three parts
 - opening tag
 - content of the element
 - closing tag
+
+# HTML Document structure
+
+All HTML files require a html, body and head tag
