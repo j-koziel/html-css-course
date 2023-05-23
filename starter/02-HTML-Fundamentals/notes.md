@@ -5,9 +5,9 @@ It is used to describe the content of a webpage (not a _programming language_)
 
 An element is made up of three parts
 
-- opening element
+- opening tag
 - content of the element
-- closing element
+- closing tag
 
 # HTML Document structure
 
