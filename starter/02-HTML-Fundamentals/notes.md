@@ -5,40 +5,41 @@ It is used to describe the content of a webpage (not a _programming language_)
 
 An element is made up of three parts
 
-- opening tag
+- opening element
 - content of the element
-- closing tag
+- closing element
 
 # HTML Document structure
 
-All HTML files require a html, body and head tag
-Elements in the head tag will not necessarily be shown to the user
+All HTML files require a html, body and head element
+
+Elements in the head element will not necessarily be shown to the user
 
 # Text elements
 
-There are six "h" tags -> h1 to h6
+There are six "h" elements -> h1 to h6
 
 ![](https://github.com/j-koziel/html-css-course/blob/master/starter/02-HTML-Fundamentals/20230523104552.png)
 
 Headings are used to break up text into logical sections
 
-"p" tags are used to write more generic smaller text
+"p" elements are used to write more generic smaller text
 
-A good practice is to only ever have **one** h1 tag in each html page
+A good practice is to only ever have **one** h1 element in each html page
 
-You can use "b" tags to create bold text however it is deprecated and the "strong" tag should be used instead as it has no **semantic** meaning
+You can use "b" elements to create bold text however it is deprecated and the "strong" element should be used instead as it has no **semantic** meaning
 
-The same goes for the "i" tag (italics). Use "em" (emphasise) instead
+The same goes for the "i" element (italics). Use "em" (emphasise) instead
 
 # More text elements: Lists
 
-Ordered lists can be constructed with the "ol" tag and "li" tags inside of it
+Ordered lists can be constructed with the "ol" element and "li" elements inside of it
 
-Unordered lists are the same as an ordered list but with a "ul" tag -> creates a bullet pointed list
+Unordered lists are the same as an ordered list but with a "ul" element -> creates a bullet pointed list
 
 # Images and attributes
 
-The "img" tag is one of those elements with no **content**  
+The "img" element is one of those elements with no **content**  
 Instead it uses attributes which provide it with information about the content
 
 ## Attributes
@@ -46,5 +47,16 @@ Instead it uses attributes which provide it with information about the content
 - The "src" attribute provides information as to the location of the image
 - The "alt" attribute means alt text. This helps with accessibility and the browser knows what the image is.
 - "width" and "height" attributes obviously change the size of the image
-- The html tag uses the "lang" attribute to specify the language of the page
-- The head tag requires meta tags (metadata) to describe the caracter set being used in the page
+- The html element uses the "lang" attribute to specify the language of the page
+- The head element requires meta elements (metadata) to describe the caracter set being used in the page
+
+# Hyperlinks
+
+Links can be put into two categories
+
+- Links which lead to other pages on our website
+- Links to other places on the internet which are **not** on our website
+
+Use the "a" (anchor) element with the "href" attribute where you put your link
+
+A usefull tool is to use the "target" attribute with the "\_blank" value. This will open the link in a new tab
