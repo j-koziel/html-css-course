@@ -60,3 +60,14 @@ Links can be put into two categories
 Use the "a" (anchor) element with the "href" attribute where you put your link
 
 A usefull tool is to use the "target" attribute with the "\_blank" value. This will open the link in a new tab
+
+# Structuring our page
+
+It's good to put everything in containers as it makes it neat and organised
+
+- "nav" element -> group links together
+- "header" element -> the top part of a page
+- "article" element -> good for blog posts or large pieces of text
+- "footer" element -> the bottom part of the page
+
+This is all part of _semantic_ html
