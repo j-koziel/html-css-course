@@ -71,3 +71,15 @@ It's good to put everything in containers as it makes it neat and organised
 - "footer" element -> the bottom part of the page
 
 This is all part of _semantic_ html
+
+# Semantic HTML
+
+Certain elements have a meaning or purpose attached to them -> Not what it looks like but what it means and what it stands for
+
+Not all elements are semantic
+
+For example, the "em" element. It makes the text italics but it means to **em**phasise the text
+
+The "div" element is just a box with no meaning -> Only use for containers where they have no meaning.
+
+Semantic elements should be used for meaningful parts of the page
