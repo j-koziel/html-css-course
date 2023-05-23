@@ -39,8 +39,9 @@ Unordered lists are the same as an ordered list but with a "ul" tag -> creates a
 # Images and attributes
 
 The "img" tag is one of those elements with no **content**
-
 Instead it uses attributes which provide it with information about the content
+
+## Attributes
 
 The src attribute provides information as to the location of the image
 
