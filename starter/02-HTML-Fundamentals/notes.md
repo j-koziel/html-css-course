@@ -17,6 +17,7 @@ Elements in the head tag will not necessarily be shown to the user
 # Text elements
 
 There are six "h" tags -> h1 to h6
+
 ![](https://github.com/j-koziel/html-css-course/blob/master/starter/02-HTML-Fundamentals/20230523104552.png)
 
 Headings are used to break up text into logical sections
