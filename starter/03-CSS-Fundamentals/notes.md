@@ -29,7 +29,7 @@ Use the "link" element with the "href" and "rel" attributes to define the locati
 
 # Styling text
 
-6 properties which let you style text
+6 properties which let you style text:
 
 - font-size: changes the size of the font. By default the font-size is 16px
 - font-family: Different fonts for text
@@ -37,3 +37,11 @@ Use the "link" element with the "href" and "rel" attributes to define the locati
 - font-style: The style of the text (bold, italics etc)
 - text-align: How the text is aligned relative to its parent element
 - line-height: Space between each line of text
+
+# Combining selectors
+
+Makes the CSS file less repetetive and improves maintainability of styling
+
+Descendant selectors select child elements
+
+Not the most recommended way to do this as it is not maintainable
