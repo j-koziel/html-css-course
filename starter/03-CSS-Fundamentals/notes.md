@@ -65,3 +65,34 @@ Classes are most of the time better than IDs and should be used more as it makes
 **Extra styling property**
 
 - list-style: none; -> Removes bullet points from unordered lists
+
+# Working with colors
+
+Different ways to represent colours in CSS
+
+## **RGB MODEL**
+
+- Every color is represented with a combination of red, green, blue
+- Each of the 3 base colours take a value between 0 and 255
+
+![](20230524120047.png)
+
+### RGB notation
+
+- rgb(0, 255, 255) - regular
+- rgba(0, 255, 255, 0.3) - with transparency ("alpha")
+
+### Hexadecimal notation
+
+- scale from 0 to ff - (255 in hexadecimal)
+- #00**ff**_ff_
+- shorthand - #0**f**_f_ -> When the colors have identical pairs
+
+In practice hexadecimal is mostly used and rgba used for transparency
+
+## CSS color properties
+
+- color - Lets you change the color of an element in hexadecimal or rgb form
+- background-color - Changes the background color of an element
+- border - Takes in 3 values (size, style, color)
+- border-top/bottom/left/right - Border at specific sides of the element
