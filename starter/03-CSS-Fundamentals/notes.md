@@ -26,3 +26,14 @@ Better than inline styling but still not recommended for large style sheets -> s
 Usually the best path to take as everything is nicely organised
 
 Use the "link" element with the "href" and "rel" attributes to define the location of the css file (href) and the type of link this is (rel)
+
+# Styling text
+
+6 properties which let you style text
+
+- font-size: changes the size of the font. By default the font-size is 16px
+- font-family: Different fonts for text
+- text-transform: Change text to a different case (upper case, lower case etc)
+- font-style: The style of the text (bold, italics etc)
+- text-align: How the text is aligned relative to its parent element
+- line-height: Space between each line of text
