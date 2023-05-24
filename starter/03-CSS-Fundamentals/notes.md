@@ -38,6 +38,10 @@ Use the "link" element with the "href" and "rel" attributes to define the locati
 - text-align: How the text is aligned relative to its parent element
 - line-height: Space between each line of text
 
+Other properties:
+
+- font-weight: lets you make text bold
+
 # Combining selectors
 
 Makes the CSS file less repetetive and improves maintainability of styling
@@ -45,3 +49,19 @@ Makes the CSS file less repetetive and improves maintainability of styling
 Descendant selectors select child elements
 
 Not the most recommended way to do this as it is not maintainable
+
+# Class and ID selectors
+
+IDs are special attributes on HTML elements which can be selected inside CSS using the hash (#) selector
+
+The big difference between classes and IDs is that each ID name is only allowed to be used once. However multiple elements can have the same class names
+
+If the class name has a space it should seperated with a dash
+
+Select classes using the dot (.) selector
+
+Classes are most of the time better than IDs and should be used more as it makes your code more prepared for the future and will prevent unnecessary bugs
+
+**Extra styling property**
+
+- list-style: none; -> Removes bullet points from unordered lists
