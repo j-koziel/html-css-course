@@ -96,3 +96,15 @@ In practice hexadecimal is mostly used and rgba used for transparency
 - background-color - Changes the background color of an element
 - border - Takes in 3 values (size, style, color)
 - border-top/bottom/left/right - Border at specific sides of the element
+
+# Pseudo-classes
+
+To select the first element of any list you can do this:
+
+`li:first-child`
+
+This will select all the first list elements in any lists
+
+This selects the first child of the element and not the first occurence of that element
+
+Works the same for `last-child`
