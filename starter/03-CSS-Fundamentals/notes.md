@@ -108,3 +108,11 @@ This will select all the first list elements in any lists
 This selects the first child of the element and not the first occurence of that element
 
 Works the same for `last-child`
+
+# Styling hyperlinks
+
+You shouldn't directly style the anchors
+
+Instead use pseudo classes to style the links at different states
+
+`a:link` pseudo-class only styles anchors which are real links
