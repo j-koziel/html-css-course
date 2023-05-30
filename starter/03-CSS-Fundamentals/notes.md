@@ -116,3 +116,20 @@ You shouldn't directly style the anchors
 Instead use pseudo classes to style the links at different states
 
 `a:link` pseudo-class only styles anchors which are real links
+
+# CSS Theory #1: Conflicts between selectors
+
+There could be multiple declarations for the same elements.
+
+Different selectors have different priority in CSS:
+
+1. IDs have the highest priority -> when there are multiple the last one will be applied
+   1. Apparently it is more complex than this
+2. Class or pseudo-class selectors
+3. Element selector
+4. Universal selector -> lowest priority
+
+Misc:
+
+1. Inline styles have higher priority than IDs
+2. Declarations marked as `!important` have even more priority than inline styles -> Best to avoid this
