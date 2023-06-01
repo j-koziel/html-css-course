@@ -133,3 +133,11 @@ Misc:
 
 1. Inline styles have higher priority than IDs
 2. Declarations marked as `!important` have even more priority than inline styles -> Best to avoid this
+
+# CSS Theory #2: Inheritance and the Universal selector
+
+Some elements inherit their parent's styles.
+
+This is a cool mechanic as it means that properties which are going to be shared among elements can be put into the body
+
+The universal (`*`) selector selects all the elements inside the page
