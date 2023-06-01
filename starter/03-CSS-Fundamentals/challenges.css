@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid #000;
+  line-height: 1.4;
+}
+
+h2 {
+  background-color: #eeebeb;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.price-detail {
+  font-size: 20px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+
+  color: #727272;
+}
+
+.info-lnk {
+  color: #000;
+}
+
+.info-lnk:hover,
+info-lnk:active {
+  text-decoration: none;
+}
+
+.info-lnk:visited {
+  color: #5c5c5c;
+}
+
+.details {
+  list-style: square;
+}
+
+.cart-btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: none;
+}
+
+.cart-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
