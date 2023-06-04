@@ -141,3 +141,24 @@ Some elements inherit their parent's styles.
 This is a cool mechanic as it means that properties which are going to be shared among elements can be put into the body
 
 The universal (`*`) selector selects all the elements inside the page
+
+# CSS Theory #3: The CSS Box Model
+
+The box model defines how elements are displayed on a webpage and how they are sized.
+
+Content can range from anything like text to images.  
+Define the width and height of the content
+
+A border is a line around the element but still inside
+
+Padding is invisible whitespace between the border and the content
+
+Margin is the space outside of an element between other elements
+
+The fill area is the area which gets filled with background color or a background image
+
+Final element width = left border + left padding + width + right padding + right border
+
+final element height = top border + top padding +height + bottom padding + bottom border
+
+This is all just _default_ behaviour

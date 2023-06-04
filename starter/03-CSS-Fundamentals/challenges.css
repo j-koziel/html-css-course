@@ -48,8 +48,9 @@ info-lnk:active {
   background-color: #000;
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   border: none;
+  cursor: pointer;
 }
 
 .cart-btn:hover {
