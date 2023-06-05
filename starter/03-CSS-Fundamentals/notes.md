@@ -162,3 +162,11 @@ Final element width = left border + left padding + width + right padding + right
 final element height = top border + top padding +height + bottom padding + bottom border
 
 This is all just _default_ behaviour
+
+# Using margins and paddings
+
+An element with background colour can always use some padding to seperate it from the content of the element
+
+Its good not to mix margin-top and margin-bottom because you can easily get confused
+
+The space between elements (margin) is not added but rather the larger value is used.
