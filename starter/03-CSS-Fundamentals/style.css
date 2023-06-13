@@ -10,6 +10,11 @@ body {
   border-top: 5px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;

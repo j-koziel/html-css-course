@@ -178,3 +178,13 @@ As mentioned in the box model, changing the height is not the final height. You 
 Setting the height to auto will automatically fit an image to the aspect ratio of the width. And vice versa
 
 Percentages apply to the percentage of the _parent_ element. This is useful because it means as the size of the window changes the image will always stay at the same percentage -> ✨*auto resizing*✨.
+
+# Centering a page
+
+This is the hardest thing to achieve in life
+
+Steps:
+
+1. Put all of our content inside a container element (otherwise there is no content to center). Divs will work great
+2. Add a width to that element. The elements inside the container can not be wider than the container
+3. Add margins to the left and right of the container and set them to auto.
