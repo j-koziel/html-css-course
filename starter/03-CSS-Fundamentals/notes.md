@@ -170,3 +170,11 @@ An element with background colour can always use some padding to seperate it fro
 Its good not to mix margin-top and margin-bottom because you can easily get confused
 
 The space between elements (margin) is not added but rather the larger value is used.
+
+# Adding dimensions
+
+As mentioned in the box model, changing the height is not the final height. You have to add up the padding on both sides to get the final height
+
+Setting the height to auto will automatically fit an image to the aspect ratio of the width. And vice versa
+
+Percentages apply to the percentage of the _parent_ element. This is useful because it means as the size of the window changes the image will always stay at the same percentage -> ✨*auto resizing*✨.
